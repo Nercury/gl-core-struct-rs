@@ -1,0 +1,13 @@
+[package]
+name = "gl-core-struct"
+version = "0.1.0"
+authors = ["Nerijus Arlauskas <nercury@gmail.com>"]
+repository = "https://github.com/Nercury/gl-core-struct-rs"
+publish = false
+build = true
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+maintenance = { status = "passively-maintained" }
+
+[build-dependencies]
+gl_generator = "0.5"
